@@ -5,6 +5,7 @@ import { PromocionesComponent } from './promociones/promociones.component';
 import { NovedadesComponent } from './novedades/novedades.component';
 import { ZapatosComponent } from './zapatos/zapatos.component';
 import { BolsosComponent } from './bolsos/bolsos.component';
+import { PedidosComponent } from './pedidos/pedidos.component';
 
 const router: Routes = [
   {
@@ -30,6 +31,11 @@ const router: Routes = [
   {
     path: 'bolsos',
     component: BolsosComponent
+  },
+
+  {
+    path: 'pedidos',
+    component: PedidosComponent
   }
 ]
 
